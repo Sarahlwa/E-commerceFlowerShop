@@ -1,5 +1,5 @@
 :root {
-  --pink: #e84393;
+  --blue: #3AA6EF;
 }
 
 * {
@@ -11,7 +11,7 @@
   border: none;
   text-decoration: none;
   text-transform: capitalize;
-  transition: 2s linear;
+  transition: all 0.2s linear;
 }
 
 html {
@@ -27,29 +27,32 @@ section {
 .heading {
   text-align: center;
   font-size: 4rem;
-  color: #333;
+  color: var(--blue);
   padding: 1rem;
   margin: 2rem 0;
-  background: rgba(255, 51, 153, 0.05);
+  background: rgba(67, 172, 232, 0.05);
 }
 .heading span {
-  color: var(--pink);
+  color: var(--blue);
 }
 
 .btn {
   display: inline-block;
   margin-top: 1rem;
   border-radius: 5rem;
-  background: #333;
+  background: var(--blue);
   color: #fff;
   padding: 9px 3.5rem;
   cursor: pointer;
   font-size: 1.7rem;
+  border: 0.5rem solid white;
 }
 
 .btn:hover {
-  background: var(--pink);
+  background: #fcf9f9;
+  color: var(--blue);
 }
+
 
 header {
   position: fixed;
@@ -67,12 +70,12 @@ header {
 
 header .logo {
   font-size: 3rem;
-  color: #333;
+  color: var(--blue);
   font-weight: bolder;
 }
 
 header .logo span {
-  color: var(--pink);
+  color: var(--blue);
 }
 
 header .navbar a {
@@ -82,7 +85,7 @@ header .navbar a {
 }
 
 header .navbar a:hover {
-  color: var(--pink);
+  color: var(--blue);
 }
 
 header .icons a {
@@ -92,7 +95,7 @@ header .icons a {
 }
 
 header .icons a:hover {
-  color: var(--pink);
+  color: var(--blue);
 }
 
 header #toggler {
@@ -113,7 +116,7 @@ header .fa-bars {
   display: flex;
   align-items: center;
   min-height: 100vh;
-  background: url(../images/home-bg.jpg) no-repeat;
+  background: url("images/background.png") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -122,22 +125,35 @@ header .fa-bars {
   max-width: 50rem;
 }
 
-.home .content h3 {
+.home .content h5{
+  font-family: 'Allura', cursive;
+font-size: 3rem;
+letter-spacing: 0.2rem;
+color: #fff;
+font-weight: 400;
+}
+.home .content h4 {
   font-size: 6rem;
-  color: #333;
+  font-family: 'Allura', cursive;
+  color: white;
+  padding: 1rem 0;
+  font-weight: 400;
 }
 
-.home .content span {
-  font-size: 3.5rem;
-  color: var(--pink);
-  padding: 1rem 0;
-  line-height: 1.5;
+.home .content h3 {
+ font-family: 'Playfair Display', serif;
+font-size: 9rem;
+font-weight: 700;
+line-height: 1;
+color: #fff;
 }
 
 .home .content p {
   font-size: 1.5rem;
-  color: #999;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
   padding: 1rem 0;
+  font-weight: 100;
   line-height: 1.5;
 }
 
@@ -158,7 +174,7 @@ header .fa-bars {
 .about .row .video-container video {
   width: 100%;
   border: 1.5rem solid #fff;
-  border-radius: 5rem;
+  border-radius: 2rem;
   box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.1);
   height: 100%;
   object-fit: cover;
@@ -181,7 +197,7 @@ header .fa-bars {
 
 .about .row .content h3 {
   font-size: 3rem;
-  color: #333;
+  color: var(--blue);
 }
 
 .about .row .content p {
@@ -312,8 +328,8 @@ header .fa-bars {
   left: 1rem;
   padding: .7rem 1rem;
   font-size: 2rem;
-  color: var(--pink);
-  background: rgba(255, 51, 153, .05);
+  color: var(--blue);
+  background: rgba(67, 172, 232, .05);
   z-index: 1;
   border-radius: .5rem;
 }
@@ -351,7 +367,7 @@ header .fa-bars {
   line-height: 5rem;
   font-size: 2rem;
   width: 50%;
-  background: var(--pink);
+  background: var(--blue);
   color: #fff;
 }
 
@@ -378,7 +394,7 @@ header .fa-bars {
 
 .products .box-container .box .content price{
   font-size: 2.5rem;
-  color:var(--pink);
+  color:var(--blue);
   font-weight: bolder;
   padding-top: 1rem;
 }
@@ -416,7 +432,7 @@ header .fa-bars {
 
 .review .box-container .box .stars i{
   font-size: 2rem;
-  color:var(--pink);
+  color:var(--blue);
 }
 
 .contact .row{
@@ -456,7 +472,7 @@ header .fa-bars {
 
 
 .contact .row form .box:focus{
-  border-color: var(--pink);
+  border-color: var(--blue);
 }
 
 .contact .row form textarea{
