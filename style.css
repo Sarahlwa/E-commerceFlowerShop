@@ -227,19 +227,19 @@ color: #fff;
 }
 
 .icon-contqainer .icons img {
-  height: 5rem;
+  height: 8rem;
   margin-right: 2rem;
 }
 
 .icon-contqainer .icons h3 {
   color: #333;
-  padding-bottom: 5rem;
   font-size: 1.5rem;
 }
 
 .icon-contqainer .icons span {
   color: #555;
   font-size: 1.3rem;
+  
 }
 
 /* media queries */
@@ -316,7 +316,7 @@ color: #fff;
 
 .products .box-container .box{
   flex: 1 1 30rem;
-  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 1);
+  box-shadow: 0 .5rem 1.5rem #3AA6EF1a;
   border-radius: .5rem;
   border: .1rem solid rgba(0, 0, 0, .1);
   position: relative;
@@ -329,7 +329,7 @@ color: #fff;
   padding: .7rem 1rem;
   font-size: 2rem;
   color: var(--blue);
-  background: rgba(67, 172, 232, .05);
+  background: rgba(67, 172, 232, .07);
   z-index: 1;
   border-radius: .5rem;
 }
@@ -378,7 +378,8 @@ color: #fff;
 }
 
 .products .box-container .box .image .icons a:hover{
-  background: #333;
+ background: #fcf9f9;
+  color: var(--blue);
 }
 
 .products .box-container .box .content{
@@ -392,14 +393,14 @@ color: #fff;
   color: #333;
 }
 
-.products .box-container .box .content price{
+.products .box-container .box .content .price{
   font-size: 2.5rem;
   color:var(--blue);
   font-weight: bolder;
   padding-top: 1rem;
 }
 
-.products .box-container .box .content price span{
+.products .box-container .box .content .price span{
   font-size: 1.5rem;
   color:#999;
   font-weight: lighter;
@@ -415,7 +416,7 @@ color: #fff;
 
 .review .box-container .box{
   flex: 1 1 30rem;
-  box-shadow: 0.5rem 1.5rem rgba(0,0,0,.1);
+  box-shadow: 0.5rem 1.5rem rgba(48, 191, 239, 0.1);
   border-radius: .5rem;
   padding: 3rem 2rem;
   position: relative;
@@ -435,6 +436,36 @@ color: #fff;
   color:var(--blue);
 }
 
+.review .box-container .box p{
+  color:#999;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding-top: 2rem;
+}
+
+.review .box-container .box .user{
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+}
+.review .box-container .box .user img{
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.review .box-container .box .user h3{
+  font-size: 2rem;
+  color:#333;
+}
+
+.review .box-container .box .user span{
+  font-size: 1.3rem;
+  color:#999;
+}
+
 .contact .row{
   display: flex;
   flex-wrap: wrap-reverse;
@@ -445,14 +476,15 @@ color: #fff;
 .contact .row form{
   flex:1 1 40rem;
   padding: 2rem 2.5rem;
-  box-shadow: 0.5rem 1.5rem rgba(0,0,0,.1);
-  border:.1rem solid rgba(0,0,0,.1);
+  box-shadow: 0.5rem 1.5rem rgba(30, 168, 222, 0.1);
+  border:.1rem solid rgba(30, 168, 222, 0.3);
   background: #fff;
   border-radius: .5rem;
 }
 
 .contact .row .image{
   flex:1 1 40rem;
+  position: relative;
 }
 
 .contact .row .image img{
@@ -464,9 +496,9 @@ color: #fff;
   font-size: 1.7rem;
   color:#333;
   text-transform: none;
-  border:1rem solid rgba(0,0,0,.1);
+ border:.1rem solid rgba(30, 168, 222, 0.5);
   border-radius: .5rem;
-  margin: 7rem 0;
+  margin: 2rem 0;
   width: 100%;
 }
 
@@ -478,5 +510,57 @@ color: #fff;
 .contact .row form textarea{
   height: 15rem;
   resize: none;
+}
 
+.footer .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.footer .box-container .box{
+  flex:1 1 25rem;
+}
+
+.footer .box-container .box h3{
+  color:#333;
+  font-size: 2.5rem;
+  padding:1rem 0;
+}
+
+.footer .box-container .box a{
+  display: block;
+  color:#666;
+  font-size: 1.5rem;
+  padding:1rem 0;
+}
+
+.footer .box-container .box a:hover{
+  color:var(--blue);
+  text-decoration: underline;
+}
+
+.footer .box-container .box img{
+  margin-top: 1rem;
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  bottom: 4rem;
+  right: 0.5rem;
+
+}
+
+.footer .credit{
+  text-align: center;
+  padding:1.5rem;
+  margin-top: 1.5rem;
+  padding-top: 2.5rem;
+  font-size: 2rem;
+  color:#333;
+  border-top:.1rem solid rgba(0,0,0,.1);
+}
+
+.footer .credit span{
+  color:var(--blue);
 }
