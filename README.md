@@ -21,7 +21,9 @@ This project was built to practice and improve my frontend web development skill
 - **CSS3** – Styling and responsive design
 
 ## 📸 Preview
-
+![image alt](https://github.com/Sarahlwa/E-commerceFlowerShop/blob/445581e82770f86808eaa20d01f5f90cd297f141/screenshots/Screenshot%202026-10-11%20175753.png)
+![image alt](https://github.com/Sarahlwa/E-commerceFlowerShop/blob/445581e82770f86808eaa20d01f5f90cd297f141/screenshots/Screenshot%202026-10-11%20175812.png)
+![image alt](https://github.com/Sarahlwa/E-commerceFlowerShop/blob/445581e82770f86808eaa20d01f5f90cd297f141/screenshots/Screenshot%202026-10-11%20175832.png)
 
 
 ## 🚀 Getting Started
